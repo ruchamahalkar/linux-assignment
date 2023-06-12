@@ -1,0 +1,46 @@
+Linux Command Assignment
+
+1.Create a new directory called linux-assignment in your home directory.
+    $ mkdir linux_assignment
+
+2.Navigate into the linux-assignment directory.
+    $ cd linux_assignment
+
+3.Create a new file called instructions.txt.
+4.Write "Hello, World!" into instructions.txt using a command-line text editor like nano, vi, or emacs.
+   $ cat > instructions.txt
+     Hello, World!(ctr+D)
+
+5.Display the contents of instructions.txt using a command.
+   $ cat instructions.txt
+
+6.Rename instructions.txt to greetings.txt.
+   $ mv instructions.txt greetings.txt
+
+7.Copy greetings.txt to a new file called salutations.txt.
+   $ cp greetings.txt salutations.txt
+
+8.Delete greetings.txt.
+   $ rm greetings.txt
+
+9.Create a new directory called archive.
+   $ mkdir archives
+
+10.Move salutations.txt to the archive directory.
+   $ mv linux_assignment/salutations.txt archives/salutations.txt
+
+11.Display the current working directory to confirm that salutations.txt is now in the archive directory.
+   $ pwd
+
+12.Navigate back to the linux-assignment directory and create three new empty files named file1.txt, file2.txt, and file3.txt.
+   $ cd ..
+   $ touch file1.txt file2.txt file3.txt
+
+13.Display the list of files in the linux-assignment directory to confirm the creation of the new files.
+   $ ls
+
+14.Create a new text file in your home directory named linux-assignment-commands.txt and write down all the commands you used in this assignment.
+   $ touch linux-assignment-commands.txt
+
+15.Share your linux-assignment-commands.txt file with your instructor or team lead for review.
+
